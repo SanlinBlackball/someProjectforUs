@@ -1,0 +1,6 @@
+framework module Pods_chaoKids {
+  umbrella header "Pods-chaoKids-umbrella.h"
+
+  export *
+  module * { export * }
+}
