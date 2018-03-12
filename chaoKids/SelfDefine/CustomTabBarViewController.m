@@ -60,7 +60,7 @@
     customTabBar.centerStr = @"中心";
     UIViewController *vc = [[UIViewController alloc] init];
     UIViewController *vc2 = [[UIViewController alloc] init];
-    vc2.view.backgroundColor = [UIColor whiteColor];
+    vc2.view.backgroundColor = [UIColor greenColor];
     
     [self addChildViewController:[self getNavigationController:vc title:@"首页" selectImageStr:@"tab_community_nor" narmalImageStr:@"tab_community_press"]];
     [self addChildViewController:[self getNavigationController:vc title:@"第二" selectImageStr:@"tab_community_nor" narmalImageStr:@"tab_community_press"]];
